@@ -30,17 +30,15 @@ process_lib() {
         }" $1
         offset=$(($offset + 5))
     done
+
+    lc_shell -x "read_lib $1; exit"
+
+    cp $1 $TOP/generate_db
 }
 
 process_lib $TOP/generate_lib/sky130_fd_sc_hd__ss_100C_1v40.lib
 process_lib $TOP/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 process_lib $TOP/generate_lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib
-
-lc_shell -f lc_shell_gen_lib.tcl
-
-cp $TOP/generate_lib/sky130_fd_sc_hd__ss_100C_1v40.lib $TOP/generate_db
-cp $TOP/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib $TOP/generate_db
-cp $TOP/generate_lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib $TOP/generate_db
 
 cp $TOP/generate_lib/sky130_fd_sc_hd__ss_100C_1v40.lib $TOP/view-standard/stdcells-wc.lib
 cp $TOP/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib $TOP/view-standard/stdcells.lib
