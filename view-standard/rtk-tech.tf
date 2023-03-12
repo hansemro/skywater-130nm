@@ -1,7 +1,7 @@
 
 Technology	{
 		name				= ""
-		date				= "Apr 22 2017"
+		date				= "Jul  6 2022"
 		dielectric			= 3.45e-05
 		unitTimeName			= "ns"
 		timePrecision			= 1000
@@ -135,9 +135,9 @@ Layer		"li1" {
 		defaultWidth			= 0.17
 		minWidth			= 0.17
 		minSpacing			= 0.17
-		unitMinResistance		= 0.0122
-		unitNomResistance		= 0.0122
-		unitMaxResistance		= 0.0122
+		unitMinResistance		= 0.0128
+		unitNomResistance		= 0.0128
+		unitMaxResistance		= 0.0128
 		unitMinCapacitance		= 0.000516
 		unitNomCapacitance		= 0.000516
 		unitMaxCapacitance		= 0.000516
@@ -166,6 +166,9 @@ Layer		"mcon" {
 		defaultWidth			= 0.17
 		minWidth			= 0.17
 		minSpacing			= 0.19
+		unitMinResistance		= 0.0093
+		unitNomResistance		= 0.0093
+		unitMaxResistance		= 0.0093
 }
 
 Layer		"met1" {
@@ -215,6 +218,9 @@ Layer		"via" {
 		defaultWidth			= 0.15
 		minWidth			= 0.15
 		minSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 Layer		"met2" {
@@ -264,6 +270,9 @@ Layer		"via2" {
 		defaultWidth			= 0.2
 		minWidth			= 0.2
 		minSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 Layer		"met3" {
@@ -312,6 +321,9 @@ Layer		"via3" {
 		defaultWidth			= 0.2
 		minWidth			= 0.2
 		minSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 Layer		"met4" {
@@ -360,6 +372,9 @@ Layer		"via4" {
 		defaultWidth			= 0.8
 		minWidth			= 0.8
 		minSpacing			= 0.8
+		unitMinResistance		= 0.00038
+		unitNomResistance		= 0.00038
+		unitMaxResistance		= 0.00038
 }
 
 Layer		"met5" {
@@ -406,6 +421,9 @@ ContactCode	"L1M1_PR" {
 		lowerLayerEncWidth		= 0
 		lowerLayerEncHeight		= 0
 		minCutSpacing			= 0.19
+		unitMinResistance		= 0.0093
+		unitNomResistance		= 0.0093
+		unitMaxResistance		= 0.0093
 }
 
 ContactCode	"L1M1_PR_R" {
@@ -422,6 +440,9 @@ ContactCode	"L1M1_PR_R" {
 		lowerLayerEncWidth		= 0
 		lowerLayerEncHeight		= 0
 		minCutSpacing			= 0.19
+		unitMinResistance		= 0.0093
+		unitNomResistance		= 0.0093
+		unitMaxResistance		= 0.0093
 }
 
 ContactCode	"L1M1_PR_M" {
@@ -438,6 +459,9 @@ ContactCode	"L1M1_PR_M" {
 		lowerLayerEncWidth		= 0
 		lowerLayerEncHeight		= 0
 		minCutSpacing			= 0.19
+		unitMinResistance		= 0.0093
+		unitNomResistance		= 0.0093
+		unitMaxResistance		= 0.0093
 }
 
 ContactCode	"L1M1_PR_MR" {
@@ -454,6 +478,9 @@ ContactCode	"L1M1_PR_MR" {
 		lowerLayerEncWidth		= 0
 		lowerLayerEncHeight		= 0
 		minCutSpacing			= 0.19
+		unitMinResistance		= 0.0093
+		unitNomResistance		= 0.0093
+		unitMaxResistance		= 0.0093
 }
 
 ContactCode	"L1M1_PR_C" {
@@ -469,6 +496,9 @@ ContactCode	"L1M1_PR_C" {
 		lowerLayerEncWidth		= 0
 		lowerLayerEncHeight		= 0
 		minCutSpacing			= 0.19
+		unitMinResistance		= 0.0093
+		unitNomResistance		= 0.0093
+		unitMaxResistance		= 0.0093
 }
 
 ContactCode	"M1M2_PR" {
@@ -484,6 +514,9 @@ ContactCode	"M1M2_PR" {
 		lowerLayerEncWidth		= 0.085
 		lowerLayerEncHeight		= 0.055
 		minCutSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 ContactCode	"M1M2_PR_Enc" {
@@ -500,6 +533,9 @@ ContactCode	"M1M2_PR_Enc" {
 		lowerLayerEncWidth		= 0.085
 		lowerLayerEncHeight		= 0.055
 		minCutSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 ContactCode	"M1M2_PR_R" {
@@ -516,6 +552,9 @@ ContactCode	"M1M2_PR_R" {
 		lowerLayerEncWidth		= 0.055
 		lowerLayerEncHeight		= 0.085
 		minCutSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 ContactCode	"M1M2_PR_R_Enc" {
@@ -532,6 +571,9 @@ ContactCode	"M1M2_PR_R_Enc" {
 		lowerLayerEncWidth		= 0.055
 		lowerLayerEncHeight		= 0.085
 		minCutSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 ContactCode	"M1M2_PR_M" {
@@ -548,6 +590,9 @@ ContactCode	"M1M2_PR_M" {
 		lowerLayerEncWidth		= 0.085
 		lowerLayerEncHeight		= 0.055
 		minCutSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 ContactCode	"M1M2_PR_M_Enc" {
@@ -564,6 +609,9 @@ ContactCode	"M1M2_PR_M_Enc" {
 		lowerLayerEncWidth		= 0.085
 		lowerLayerEncHeight		= 0.055
 		minCutSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 ContactCode	"M1M2_PR_MR" {
@@ -580,6 +628,9 @@ ContactCode	"M1M2_PR_MR" {
 		lowerLayerEncWidth		= 0.055
 		lowerLayerEncHeight		= 0.085
 		minCutSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 ContactCode	"M1M2_PR_MR_Enc" {
@@ -596,6 +647,9 @@ ContactCode	"M1M2_PR_MR_Enc" {
 		lowerLayerEncWidth		= 0.055
 		lowerLayerEncHeight		= 0.085
 		minCutSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 ContactCode	"M1M2_PR_C" {
@@ -611,6 +665,9 @@ ContactCode	"M1M2_PR_C" {
 		lowerLayerEncWidth		= 0.085
 		lowerLayerEncHeight		= 0.085
 		minCutSpacing			= 0.17
+		unitMinResistance		= 0.0045
+		unitNomResistance		= 0.0045
+		unitMaxResistance		= 0.0045
 }
 
 ContactCode	"M2M3_PR" {
@@ -626,6 +683,9 @@ ContactCode	"M2M3_PR" {
 		lowerLayerEncWidth		= 0.04
 		lowerLayerEncHeight		= 0.085
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M2M3_PR_R" {
@@ -642,6 +702,9 @@ ContactCode	"M2M3_PR_R" {
 		lowerLayerEncWidth		= 0.085
 		lowerLayerEncHeight		= 0.04
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M2M3_PR_M" {
@@ -658,6 +721,9 @@ ContactCode	"M2M3_PR_M" {
 		lowerLayerEncWidth		= 0.04
 		lowerLayerEncHeight		= 0.085
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M2M3_PR_MR" {
@@ -674,6 +740,9 @@ ContactCode	"M2M3_PR_MR" {
 		lowerLayerEncWidth		= 0.085
 		lowerLayerEncHeight		= 0.04
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M2M3_PR_C" {
@@ -689,6 +758,9 @@ ContactCode	"M2M3_PR_C" {
 		lowerLayerEncWidth		= 0.085
 		lowerLayerEncHeight		= 0.085
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M3M4_PR" {
@@ -704,6 +776,9 @@ ContactCode	"M3M4_PR" {
 		lowerLayerEncWidth		= 0.09
 		lowerLayerEncHeight		= 0.06
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M3M4_PR_R" {
@@ -720,6 +795,9 @@ ContactCode	"M3M4_PR_R" {
 		lowerLayerEncWidth		= 0.06
 		lowerLayerEncHeight		= 0.09
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M3M4_PR_M" {
@@ -736,6 +814,9 @@ ContactCode	"M3M4_PR_M" {
 		lowerLayerEncWidth		= 0.09
 		lowerLayerEncHeight		= 0.06
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M3M4_PR_MR" {
@@ -752,6 +833,9 @@ ContactCode	"M3M4_PR_MR" {
 		lowerLayerEncWidth		= 0.06
 		lowerLayerEncHeight		= 0.09
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M3M4_PR_C" {
@@ -767,6 +851,9 @@ ContactCode	"M3M4_PR_C" {
 		lowerLayerEncWidth		= 0.09
 		lowerLayerEncHeight		= 0.09
 		minCutSpacing			= 0.2
+		unitMinResistance		= 0.00341
+		unitNomResistance		= 0.00341
+		unitMaxResistance		= 0.00341
 }
 
 ContactCode	"M4M5_PR" {
@@ -782,6 +869,9 @@ ContactCode	"M4M5_PR" {
 		lowerLayerEncWidth		= 0.19
 		lowerLayerEncHeight		= 0.19
 		minCutSpacing			= 0.8
+		unitMinResistance		= 0.00038
+		unitNomResistance		= 0.00038
+		unitMaxResistance		= 0.00038
 }
 
 ContactCode	"M4M5_PR_R" {
@@ -798,6 +888,9 @@ ContactCode	"M4M5_PR_R" {
 		lowerLayerEncWidth		= 0.19
 		lowerLayerEncHeight		= 0.19
 		minCutSpacing			= 0.8
+		unitMinResistance		= 0.00038
+		unitNomResistance		= 0.00038
+		unitMaxResistance		= 0.00038
 }
 
 ContactCode	"M4M5_PR_M" {
@@ -814,6 +907,9 @@ ContactCode	"M4M5_PR_M" {
 		lowerLayerEncWidth		= 0.19
 		lowerLayerEncHeight		= 0.19
 		minCutSpacing			= 0.8
+		unitMinResistance		= 0.00038
+		unitNomResistance		= 0.00038
+		unitMaxResistance		= 0.00038
 }
 
 ContactCode	"M4M5_PR_MR" {
@@ -830,6 +926,9 @@ ContactCode	"M4M5_PR_MR" {
 		lowerLayerEncWidth		= 0.19
 		lowerLayerEncHeight		= 0.19
 		minCutSpacing			= 0.8
+		unitMinResistance		= 0.00038
+		unitNomResistance		= 0.00038
+		unitMaxResistance		= 0.00038
 }
 
 ContactCode	"M4M5_PR_C" {
@@ -846,6 +945,9 @@ ContactCode	"M4M5_PR_C" {
 		lowerLayerEncWidth		= 0.19
 		lowerLayerEncHeight		= 0.19
 		minCutSpacing			= 0.8
+		unitMinResistance		= 0.00038
+		unitNomResistance		= 0.00038
+		unitMaxResistance		= 0.00038
 }
 
 DesignRule	{

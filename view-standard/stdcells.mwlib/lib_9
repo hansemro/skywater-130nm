@@ -1553,9 +1553,7 @@ defineGateSize "sky130_fd_sc_hd__or4bb_4" "C_N" 0.126
 defineGateSize "sky130_fd_sc_hd__or4bb_4" "D_N" 0.126
 defineDiodeProtection "sky130_fd_sc_hd__or4bb_4" "X" '(0.891)
 defineGateSize "sky130_fd_sc_hd__probe_p_8" "A" 0.7425
-defineDiodeProtection "sky130_fd_sc_hd__probe_p_8" "X" '(1.782)
 defineGateSize "sky130_fd_sc_hd__probec_p_8" "A" 0.7425
-defineDiodeProtection "sky130_fd_sc_hd__probec_p_8" "X" '(1.782)
 defineGateSize "sky130_fd_sc_hd__sdfbbn_1" "CLK_N" 0.159
 defineGateSize "sky130_fd_sc_hd__sdfbbn_1" "D" 0.126
 defineGateSize "sky130_fd_sc_hd__sdfbbn_1" "RESET_B" 0.159
