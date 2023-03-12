@@ -1,9 +1,7 @@
 # Generates lib file and performs hotfixes for adk
 # Author: Charles Tsao
 
-export lib_file=$TOP/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 # Generate lib file
-# cp $SKYWATER130_HOME/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib $lib_file
 python $TOP/generate_lib/generate_lib.py
 
 process_lib() {
@@ -34,9 +32,16 @@ process_lib() {
     done
 }
 
-process_lib $lib_file
+process_lib $TOP/generate_lib/sky130_fd_sc_hd__ss_100C_1v40.lib
+process_lib $TOP/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+process_lib $TOP/generate_lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib
 
 lc_shell -f lc_shell_gen_lib.tcl
 
-cp $lib_file $TOP/generate_db
-cp $lib_file $TOP/view-standard/stdcells.lib
+cp $TOP/generate_lib/sky130_fd_sc_hd__ss_100C_1v40.lib $TOP/generate_db
+cp $TOP/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib $TOP/generate_db
+cp $TOP/generate_lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib $TOP/generate_db
+
+cp $TOP/generate_lib/sky130_fd_sc_hd__ss_100C_1v40.lib $TOP/view-standard/stdcells-wc.lib
+cp $TOP/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib $TOP/view-standard/stdcells.lib
+cp $TOP/generate_lib/sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib $TOP/view-standard/stdcells-bc.lib
